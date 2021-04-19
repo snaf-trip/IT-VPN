@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/11952.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 95%;
+  max-width: 1301px;
+  margin: auto;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-txt {
+  height: 22px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: block;
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+}
+
+/* FIRST BLOCK */
+
+.first-block-content {
+  margin-left: 60px;
+}
+
+.first-block {
+  background-image: url(../img/first-background.jpg);
+  background-repeat: no-repeat;
+  background-color: #060044;
+  height: 913px;
+  max-height: 913px;
+}
+
+.first-block-title {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 205px;
+  margin-bottom: 29px;
+}
+
+.first-block-description {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  width: 596px;
+  line-height: 134.9%;
+  margin-bottom: 108px;
+}
+
+.first-block-btn {
+  width: 340px;
+  height: 75px;
+  background: rgba(71, 0, 149, 0.87);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-block-btn-txt {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 27px;
+}
+
+.first-block-btn-arrow {
+  margin-right: 27px;
+}
+
+/* SECOND BLOCK (WARNING) */
+
+.second-block {
+  margin-top: 137px;
+  margin-bottom: 164px;
+}
+
+.second-block-content {
+  display: flex;
+  align-items: center;
+  margin-top: 220px;
+}
+
+.second-block-background-img {
+  background-image: url(../img/second-background.jpg);
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 1061px;
+  z-index: -1;
+  position: absolute;
+}
+
+.second-block-main-content {
+  width: 924px;
+  height: 378px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 30px rgba(41, 54, 66, 0.1);
+  border-radius: 5px;
+  margin-left: 377px;
+}
+
+.second-block-title {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #000023;
+  margin-top: 64px;
+  margin-bottom: 20px;
+  margin-left: 41px;
+}
+
+.second-block-description {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000023;
+  margin-left: 41px;
+  width: 755px;
+}
+
+/* THRID BLOCK */
+
+.thrid-block-title {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000023;
+  margin-left: 104px;
+  margin-bottom: 42px;
+}
+
+.tabs {
+  margin-left: 104px;
+  margin-bottom: 7px;
+}
+
+.tab {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000023c7;
+  text-decoration: none;
+  margin-right: 92px;
+}
+
+.tab:last-child {
+  margin-right: 0;
+}
+
+.tab-active {
+  color: #6900ff;
+}
+
+.thrid-block-line {
+  background-color: #6900ff;
+  height: 2px;
+  width: 740px;
+  margin-left: 104px;
+  margin-bottom: 68px;
+}
