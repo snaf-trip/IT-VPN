@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-html{
+html {
   background-color: #ffffff;
 }
 
@@ -181,7 +181,7 @@ html{
 
 /* FOURTH-BLOCK-STAGE1 */
 
-.title-links-on-vpn{
+.title-links-on-vpn {
   font-weight: 500;
   font-size: 24px;
   color: #000023;
@@ -189,34 +189,34 @@ html{
   margin-bottom: 25px;
 }
 
-.links-for-install{
+.links-for-install {
   margin-bottom: 65px;
 }
 
-.link-install{
+.link-install {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  color: rgba(105, 0, 255, 0.74);;
+  color: rgba(105, 0, 255, 0.74);
   text-decoration: none;
   display: block;
 }
 
-.link-install:hover{
+.link-install:hover {
   text-decoration: underline;
-  color: #6900FF;
+  color: #6900ff;
 }
 
-.main-title-stage1{
+.main-title-stage1 {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: bold;
   font-size: 24px;
   color: #000;
-  width: 829px; 
+  width: 829px;
   margin-bottom: 45px;
 }
 
-.stage1-step1{
+.stage1-step1 {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -224,12 +224,12 @@ html{
   margin-bottom: 25px;
 }
 
-.img1{
+.img1 {
   margin-left: 35px;
   margin-bottom: 35px;
 }
 
-.stage1-step2{
+.stage1-step2 {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -237,7 +237,7 @@ html{
   margin-bottom: 35px;
 }
 
-.spanchik{
+.spanchik {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -246,7 +246,7 @@ html{
   margin-bottom: 12px;
 }
 
-.stage1-step3{
+.stage1-step3 {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -254,33 +254,33 @@ html{
   margin-bottom: 12px;
 }
 
-.img-last{
+.img-last {
   margin-left: 35px;
   margin-bottom: 100px;
 }
 
-.next-stage{
+.next-stage {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 24px;
   text-decoration: none;
   display: block;
   margin-left: 35px;
-  color: #9C9C9C;
+  color: #9c9c9c;
   margin-bottom: 100px;
 }
 
-.next-stage:hover{
-  color: #6900FF;
+.next-stage:hover {
+  color: #6900ff;
 }
 
 /* FOURTH-BLOCK-STAGE2 */
 
-.BOLD-span{
+.BOLD-span {
   font-weight: bold;
 }
 
-.title-link-configuration-file{
+.title-link-configuration-file {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -288,22 +288,22 @@ html{
   margin-bottom: 25px;
 }
 
-.link-configuration-file{
+.link-configuration-file {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: rgba(105, 0, 255, 0.74);;
+  color: rgba(105, 0, 255, 0.74);
   text-decoration: none;
   display: block;
   margin-bottom: 63px;
 }
 
-.link-configuration-file:hover{
+.link-configuration-file:hover {
   text-decoration: underline;
-  color: #6900FF;
+  color: #6900ff;
 }
 
-.stage2-title{
+.stage2-title {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -311,82 +311,118 @@ html{
   margin-bottom: 6px;
 }
 
-.first-discription{
-  font-family: "Montserrat-Regular", "Arial", sans-serif; 
+.first-discription {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
   width: 815px;
   margin-bottom: 25px;
 }
 
-.stage2-step1{
+.stages-steps {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #000000;  
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.back-stage {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+  display: block;
+  margin-left: 35px;
+  color: #9c9c9c;
+  margin-bottom: 100px;
+}
+
+.back-stage:hover {
+  color: #6900ff;
+}
+
+.next-back-stages {
+  display: flex;
+}
+
+.link-install-VNC {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(105, 0, 255, 0.74);
+  text-decoration: none;
+  display: block;
+  margin-left: 35px;
+  margin-bottom: 100px;
+}
+
+.link-install-VNC:hover {
+  text-decoration: underline;
+  color: #6900ff;
 }
 
 /* FOOTER */
 
-.footer{
+.footer {
   height: 291px;
-  background: #00003C;
+  background: #00003c;
   box-sizing: border-box;
   padding-top: 85px;
 }
 
-.footer-left-content{
+.footer-left-content {
   margin-right: 180px;
 }
 
-.footer-right-content{
-  display: flex;
-  align-items:center;
-}
-
-.left-right-content{
+.footer-right-content {
   display: flex;
   align-items: center;
 }
 
-.location{
+.left-right-content {
+  display: flex;
+  align-items: center;
+}
+
+.location {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   width: 355px;
   /* margin-top: 106px;   */
   margin-bottom: 14px;
 }
 
-.number{
+.number {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.footer-line{
+.footer-line {
   width: 2px;
   height: 110px;
   background-color: white;
   margin-right: 20px;
 }
 
-.politics{
+.politics {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 735px;
 }
 
-.creator{
+.creator {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   width: 384px;
   margin: auto;
