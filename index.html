@@ -59,12 +59,12 @@
     <div class="thrid-block">
       <div class="container">
         <div class="thrid-block-content">
-          <h1 class="thrid-block-title">Инструкция для Windows7/8/10</h1>
+          <h1 class="thrid-block-title" id="tabs-title">Инструкция для Windows7/8/10</h1>
           <div class="tabs">
-            <a href="#" class="tab-active tab">Этап 1</a>
-            <a href="#" class="tab">Этап 2</a>
-            <a href="#" class="tab">Этап 3</a>
-            <a href="#" class="tab">Дополнительное ПО</a>
+            <a class="tab-active tab" id="stage1">Этап 1</a>
+            <a class="tab" id="stage2">Этап 2</a>
+            <a class="tab" id="stage3">Этап 3</a>
+            <a class="tab" id="stage4">Дополнительное ПО</a>
           </div>
           <div class="thrid-block-line"></div>
         </div>
@@ -74,7 +74,7 @@
 
     
 
-    <!-- <div class="fourth-block-stage1">
+    <div class="fourth-block-stage1">
       <div class="container">
         <div class="fourth-block-stage1-content">
           <p class="title-links-on-vpn">Ссылки на OpenVPN-client для скачивания (выберите подходящю Вам версию):</p>
@@ -106,12 +106,12 @@
         <p class="spanchik">После запуска программы ее значок появится в панели уведомлений справа внизу:</p>
         <img src="img/instruction img/Этап 1/image1-10.png" alt="instruction-photo" class="img-last" width="305px" height="215px">
 
-        <a href="#" class="next-stage">Этап 2 ></a>
+        <a class="next-stage" id="next2">Этап 2 ></a>
         </div>
       </div> 
-    </div>-->
+    </div>
 
-    <!-- <div class="fourth-block-stage2">
+    <div class="fourth-block-stage2 hide">
       <div class="container">
         <div class="fourth-block-stage2-content">
           <p class="title-link-configuration-file">Для автоматичексой настройки подключения скачайте и сохраните следующий
@@ -136,14 +136,14 @@
             height="144px">
     
           <div class="next-back-stages">
-            <a href="#" class="back-stage">< Этап 1</a>
-            <a href="#" class="next-stage">Этап 3 ></a>
+            <a class="back-stage" id="back1">< Этап 1</a>
+            <a class="next-stage" id="next3">Этап 3 ></a>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <div class="fourth-block-stage3">
+    <div class="fourth-block-stage3 hide">
       <div class="container">
         <div class="fourth-block-stage3-content">
           <p class="stages-steps">1. <span class="BOLD-span">Правой</span> кнопкой мыши щелкните по значку OpenVPN клиента в
@@ -163,21 +163,25 @@
             <img src="img/instruction img/Этап 3/image3-6.png" alt="instruction-photo" class="img-last" width="494px" height="257px">
 
             <div class="next-back-stages">
-              <a href="#" class="back-stage">< Этап 2</a>
-              <a href="#" class="next-stage">Дополнительное ПО ></a>
+              <a class="back-stage" id="back2">< Этап 2</a>
+              <a class="next-stage" id="next4">Дополнительное ПО ></a>
             </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <div class="fourth-block-stage4">
+    <div class="fourth-block-stage4 hide">
       <div class="container">
         <div class="fourth-blok-stage4-content">
           <p class="spanchik">Для подключения терминалом к виртуальной машине скачайте и установите:</p>
-          <a href="" class="link-install-VNC">Терминал-клиент VNC</a>
-          <a href="#" class="back-stage">< Этап 3</a>
+          <a class="link-install-VNC">Терминал-клиент VNC</a>
+          <a class="back-stage" id="back3">< Этап 3</a>
         </div>
       </div>
+    </div>
+ 
+    <div class="UP-BTN">
+    <a><img src="img/up-button-icon.svg" alt="Наверх" class="up-button-icon" width="14px" height="14px"></a>
     </div>
 
   </main>
@@ -207,5 +211,9 @@
     </div>
   </footer>
 
+
+  <script src="scripts/tabs.js"></script>
+  <script src="scripts/bottom-flipping.js"></script>
+  <script src="scripts/up-button.js"></script>
 </body>
 </html>

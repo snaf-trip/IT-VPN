@@ -16,6 +16,10 @@ html {
   margin: auto;
 }
 
+.hide {
+  display: none;
+}
+
 .header {
   height: 80px;
   display: flex;
@@ -158,13 +162,18 @@ html {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 600;
   font-size: 22px;
-  color: #000023c7;
+  color: #00002391;
   text-decoration: none;
   margin-right: 92px;
 }
 
 .tab:last-child {
   margin-right: 0;
+}
+
+.tab:hover {
+  cursor: pointer;
+  color: #000023c7;
 }
 
 .tab-active {
@@ -268,6 +277,7 @@ html {
   margin-left: 35px;
   color: #9c9c9c;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .next-stage:hover {
@@ -336,6 +346,7 @@ html {
   margin-left: 35px;
   color: #9c9c9c;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .back-stage:hover {
@@ -360,6 +371,43 @@ html {
 .link-install-VNC:hover {
   text-decoration: underline;
   color: #6900ff;
+}
+
+.up-btton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 60, 0.74);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 99;
+  position: fixed;
+  bottom: 115px;
+  right: 140px;
+  cursor: pointer;
+}
+
+.no-fix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 60, 0.74);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 99;
+  position: relative;
+  bottom: 155px;
+  margin-right: 140px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.up-btton:hover {
+  background-color: rgba(0, 0, 60, 0.87);
 }
 
 /* FOOTER */
