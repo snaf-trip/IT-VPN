@@ -6,7 +6,7 @@ console.log(screenHeight);
 
 window.addEventListener("scroll", function () {
   pageY = pageYOffset;
-  console.log(pageY);
+  
     if (pageY >= 1800 && pageY < 5700 && fourthBlock.classList.contains("hide")) {
       upBtn.classList.add("up-btton")
     } else if (pageY < 1800) {

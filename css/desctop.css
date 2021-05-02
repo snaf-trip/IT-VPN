@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Montserrat-Regular";
-  src: url("../fonts/11952.woff2") format("woff2"),
-    url("../fonts/Montserrat-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   background-color: #ffffff;
 }
@@ -389,23 +381,6 @@ html {
   bottom: 360px;
   right: 40px;
 }
-
-/* .no-fix {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 60, 0.74);
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  text-decoration: none;
-  z-index: 99;
-  position: relative;
-  bottom: 155px;
-  margin-right: 140px;
-  margin-left: auto;
-  cursor: pointer;
-} */
 
 .up-btton:hover {
   background-color: rgba(0, 0, 60, 0.87);
