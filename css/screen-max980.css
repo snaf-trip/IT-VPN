@@ -616,6 +616,13 @@ html {
   .img1 {
     width: 80%;
     height: 80%;
+    margin-left: 6px;
+  }
+
+  .img-last {
+    width: 80%;
+    height: 80%;
+    margin-left: 6px;
   }
 
   .header {
@@ -692,6 +699,7 @@ html {
 
   .spanchik {
     font-size: 12px;
+    margin-left: 6px;
   }
 
   .next-stage {
