@@ -582,8 +582,8 @@ html {
     font-size: 14px;
     color: #ffffff;
     display: block;
-    width: 355px;
-    /* margin-top: 106px;   */
+    max-width: 280px;
+    min-width: 239px;
     margin-bottom: 14px;
   }
 
@@ -704,5 +704,31 @@ html {
 
   .next-stage {
     font-size: 13px;
+  }
+
+  .politics-mobile {
+    font-size: 12px;
+  }
+
+  .location-mobile {
+    font-size: 12px;
+    display: block;
+    max-width: 280px;
+    min-width: 239px;
+    margin-bottom: 7px;
+  }
+
+  .footer-right-content-mobile {
+    margin-left: 0px;
+  }
+
+  .phone-icon-mobile {
+    margin-left: 0;
+  }
+
+  .creator {
+    font-size: 12px;
+    width: 265px;
+    margin-top: 21px;
   }
 }
