@@ -309,7 +309,7 @@ html {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  width: 815px;
+  max-width: 815px;
   margin-bottom: 25px;
 }
 
@@ -613,6 +613,14 @@ html {
 }
 
 @media (max-width: 580px) {
+  .first-block-content {
+    margin-left: 20px;
+  }
+
+  .second-block-content {
+    margin-top: 65px;
+  }
+
   .img1 {
     width: 80%;
     height: 80%;
@@ -646,7 +654,7 @@ html {
     min-width: 300px;
     max-width: 609px;
     min-height: 220px;
-    max-height: 278px;
+    max-height: 218px;
     margin: auto;
     margin-top: 0px;
   }
@@ -666,6 +674,8 @@ html {
 
   .thrid-block-title {
     font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 28px;
   }
 
   .tab {
@@ -673,8 +683,17 @@ html {
     margin-right: 12px;
   }
 
+  .thrid-block-line {
+    max-width: 270px;
+    margin-bottom: 17px;
+  }
+
   .title-links-on-vpn {
     font-size: 12px;
+  }
+
+  .links-for-install {
+    margin-bottom: 24px;
   }
 
   .link-install {
@@ -682,14 +701,17 @@ html {
   }
 
   .main-title-stage1 {
+    margin-bottom: 16px;
     font-size: 12px;
   }
 
   .stage1-step1 {
+    margin-bottom: 12px;
     font-size: 12px;
   }
 
   .stage1-step2 {
+    margin-bottom: 12px;
     font-size: 12px;
   }
 
@@ -702,7 +724,12 @@ html {
     margin-left: 6px;
   }
 
+  .img-last {
+    margin-bottom: 40px;
+  }
+
   .next-stage {
+    margin-bottom: 68px;
     font-size: 13px;
   }
 
@@ -729,6 +756,39 @@ html {
   .creator {
     font-size: 12px;
     width: 265px;
-    margin-top: 21px;
+    margin-top: 40px;
+  }
+
+  .title-link-configuration-file {
+    font-size: 12px;
+  }
+
+  .link-configuration-file {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .stage2-title {
+    font-size: 12px;
+  }
+
+  .first-discription {
+    font-size: 12px;
+  }
+
+  .stages-steps {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .back-stage {
+    font-size: 13px;
+    margin-bottom: 50px;
+  }
+
+  .link-install-VNC {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
