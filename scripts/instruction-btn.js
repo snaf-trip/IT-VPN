@@ -1,8 +1,22 @@
 var instBtn = document.querySelector(".first-block-btn");
+var firstBlock = document.querySelector(".second-block");
+// 1350
+var screenWidth = screen.width;
+console.log(screenWidth);
 
-instBtn.addEventListener("click", function() {
+
+
+if (screenWidth >= 1350) {
+  instBtn.addEventListener("click", function() {
   goBottom();
 })
+} else {
+  instBtn.addEventListener("click", function() {
+  goBottomMobile();
+})
+}
+
+
 
 function goBottom() {
     if (window.pageYOffset < 1000) {
@@ -10,3 +24,6 @@ function goBottom() {
       setTimeout(goBottom, 0);
     }
   }
+function goBottomMobile() {
+  firstBlock.scrollIntoView({behavior: "smooth"});
+}
