@@ -614,6 +614,10 @@ html {
 }
 
 @media (max-width: 580px) {
+  .first-block-title {
+    margin-top: 100px;
+  }
+
   .first-block-content {
     margin-left: 20px;
   }
