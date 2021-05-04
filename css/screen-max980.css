@@ -446,6 +446,10 @@ html {
   margin-top: 70px;
 }
 
+.number-mobile {
+  text-decoration: none;
+}
+
 @media (max-width: 979px) {
   .first-block {
     height: 500px;
